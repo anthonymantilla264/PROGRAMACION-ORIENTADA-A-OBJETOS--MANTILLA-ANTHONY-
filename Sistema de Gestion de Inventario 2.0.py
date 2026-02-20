@@ -121,7 +121,7 @@ def menu():
                 pre = float(input("Precio: $"))
                 inv.añadir_producto(Producto(id_p, nom, cant, pre))
             except ValueError:
-                # Añadimos un bloque try-except básico por si el usuario escribe letras en lugar de números
+                # Añadimos un bloque try-except básico
                 print("\n❌ Error: La cantidad y el precio deben ser valores numéricos.")
 
         elif opcion == '2':
