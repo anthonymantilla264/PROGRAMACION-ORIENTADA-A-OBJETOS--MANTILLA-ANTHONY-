@@ -180,4 +180,4 @@ if __name__ == "__main__":
     #Actualizaciones 3.0:
     #La librería json: Cumple con el requisito de "Serialización y almacenamiento".
     #Cuando se guarda el archivo, ahora se crea un documento inventario_makaco.json que organiza los datos de forma estructurada y profesional, evitando los errores que daban los archivos .txt simples al leer líneas.
-    #self.productos = {}): Cumple con el requisito de "Colecciones". Ahora buscar un producto por su ID es inmediato porque el ID funciona como una llave exacta, sin tener que recorrer toda una lista.
+    #self.productos = {}): Ahora al buscar un producto por su ID es inmediato porque el ID funciona como una llave exacta, sin tener que recorrer toda una lista.
